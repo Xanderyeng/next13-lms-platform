@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+/dev_assets
+
 
 # next.js
 /.next/

@@ -24,6 +24,7 @@ export async function POST(
 
     return NextResponse.json(course);
   } catch (error) {
+    // To know that there is an issue with the Courses Route
     console.log("[COURSES]", error);
     return new NextResponse("Internal Error", { status: 500 });
   }
