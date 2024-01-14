@@ -5,6 +5,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 import { ToastProvider } from '@/components/providers/toaster-provider'
 import { ConfettiProvider } from '@/components/providers/confetti-provider'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,7 @@ export default function RootLayout({
           <ToastProvider />
           <SpeedInsights/>
           {children}
+          <Analytics mode={'development'} debug={false} />;
         </body>
       </html>
     </ClerkProvider>
