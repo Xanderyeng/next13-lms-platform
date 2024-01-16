@@ -28,6 +28,7 @@ export default function RootLayout({
           <SpeedInsights/>
           {children}
           <Analytics mode={'development'} debug={false} />;
+          {/* HeroScreen */}
         </body>
       </html>
     </ClerkProvider>

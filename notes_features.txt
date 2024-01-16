@@ -1,0 +1,63 @@
+
+    
+
+Add a Company Login screen after a Subscription for example a Yearly Subscription
+
+ ==================  FEATURES TO ADD ==================
+
+ --> Segrate Admin Levels, ( IDEA: Use Clerk & Superbase to seperate them )
+
+--> Ability to add courses
+
+--> Keep track of course progression in say %
+
+--> Avail the ability for the Company to send Course links for individual Employees to undertake specific courses
+
+----> Additional services; Addons e.g. Pentests
+
+
+===============  NOTES =====================
+
+
+ < --- > On-boarding Courses ( explore this component )
+
+--> Enrolment for employees from the Company side 
+
+ ----> Magic link send to Employees once the enrolment has been done from NMCyber Side 
+
+---------> Sign-up process for New / and Employees
+
+ Classify On-boarding courses, keeping track of the progress of completion
+
+
+ =====================    TODO   =====================
+
+ Have a portal to register the New Company at NMCyber ( B2B Subscription Annual ===> Seperate according to Company size ??? )
+
+ ==========> Pentests listed on the Website and also ads within the Dashboards for the platform
+
+ -----> Website Platform for marketing embedded with a Link to the platform
+
+ ----> Be able to keep track of the company details; 
+
+ Step 1 ----> once the Company subscription is complete, they recieve Login credentials to the platform
+ 
+ Step 2 ----> Subscription timeline, available courses, employees active onthe patform, ability to add a new employee, the ones who have completed
+
+
+  =====================    TODO: MVP      =====================
+
+=> SuperAdmin - Dashboard ( Company Registration Interface / process ) Clerk 
+
+ ? What details to capture for the Company:
+                - Company Name
+                - Logo
+                - eMail address
+                - Contact Phone No.
+
+        ADVANCED FEATURES OTP, MFA
+
+
+=> Company Dashboard
+
+------------- Add a layer between the Super Admin and employee dashboard
